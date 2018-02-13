@@ -223,6 +223,55 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &138475515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 138475516}
+  - component: {fileID: 138475517}
+  m_Layer: 0
+  m_Name: Creamsicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &138475516
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 138475515}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 699544299}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &138475517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 138475515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Creamsicle
+  nameColor: {r: 1, g: 0.6413793, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 837751808dc90304e90531ab70a60935, type: 3}
+  - {fileID: 21300000, guid: 7d1c6b0f6c3986948a49452956236979, type: 3}
+  portraitsFace: 2
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &273688661
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,7 +319,7 @@ MonoBehaviour:
   portraits:
   - {fileID: 21300000, guid: 33383e4c72a28a64eb35c69d26ee587a, type: 3}
   - {fileID: 21300000, guid: 6a6760dfe505a354d82f4eae6dec82d3, type: 3}
-  portraitsFace: 2
+  portraitsFace: 1
   setSayDialog: {fileID: 0}
   description: 
 --- !u!1 &359345468
@@ -356,6 +405,7 @@ GameObject:
   - component: {fileID: 488807598}
   - component: {fileID: 488807599}
   - component: {fileID: 488807597}
+  - component: {fileID: 488807601}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -389,7 +439,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 488807598}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 488807597}
   variables: []
   description: 
   stepPause: 0
@@ -416,16 +467,50 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "pelmel happy left: Well, would ya look at that. I'm in a video game!\npelmel
-      <<<: ...\npelmel >>>: Hmm... A little lonely in here.\npelmel confused right:
-      Maybe I should find somewhere to go.\nhide pelmel \"offscreen left\":\n...\npelmel
-      confused left: I disappeared and now I'm back, maybe something will happen now?\nzeah
-      happy right: Hi there!\npelmel >>>: ...\npelmel happy: WHOAH! A CUTE ELF!\nzeah
-      ecstatic: Uh, YEAH! WOO! \nzeah: Uh, who are you?\n\n-- sherlock eyeroll right:
-      Yes, well done John.\n-- You catch on quickly don't you?\n-- sherlock >>>:\n--
-      hide john \"offscreen left\": I sure do.\n\n-- This is a comment, it doesn't
-      appear in the conversation\n\n-- john angry middle: Wait, what!\n-- left: There's
-      no need to be rude Sherlock!\n-- bored: Not like that would stop you.\n"
+    stringVal: 'creamsicle sleepy appear left: ... purr...
+
+      ...
+
+      purr
+
+      cupcake awake appear right: Creamsicle.
+
+      creamsicle: ...
+
+      ...
+
+      purr.
+
+      cupcake: Ceamsicle.
+
+      creamsicle: PRRRRR.
+
+      cupcake: SISTERRRRRR!
+
+      creamsicle annoyed: what?
+
+      cupcake: I can''t sleep.
+
+
+      -- sherlock eyeroll right: Yes, well done John.
+
+      -- You catch on quickly don''t you?
+
+      -- sherlock >>>:
+
+      -- hide john "offscreen left": I sure do.
+
+
+      -- This is a comment, it doesn''t appear in the conversation
+
+
+      -- john angry middle: Wait, what!
+
+      -- left: There''s no need to be rude Sherlock!
+
+      -- bored: Not like that would stop you.
+
+'
 --- !u!114 &488807598
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -440,8 +525,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -51
-    y: -23
+    x: -261
+    y: -86
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -451,6 +536,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 488807599}
   commandList:
+  - {fileID: 488807601}
   - {fileID: 488807597}
 --- !u!114 &488807599
 MonoBehaviour:
@@ -479,6 +565,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &488807601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 488807595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 94b68ae46e76e3d4faf4befcbc94885a, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
 --- !u!1 &495728015
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,6 +731,7 @@ Transform:
   - {fileID: 694245987}
   - {fileID: 273688662}
   - {fileID: 1214329818}
+  - {fileID: 138475516}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -675,8 +779,8 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 0}
-  portraitsFace: 0
+  - {fileID: 21300000, guid: 5b40b34557d03fd4fb06a3ef513044ef, type: 3}
+  portraitsFace: 1
   setSayDialog: {fileID: 0}
   description: 
 --- !u!1 &1238002662
