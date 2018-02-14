@@ -440,11 +440,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 513.8793, y: 251.53215}
+  scrollPos: {x: 536.40656, y: 255.2824}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 200
-  zoom: 1
+  zoom: 0.9100001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -454,7 +454,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 488807606}
   selectedCommands:
-  - {fileID: 488807599}
+  - {fileID: 488807608}
   variables: []
   description: 
   stepPause: 0
@@ -508,7 +508,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -325
     y: -102
-    width: 151
+    width: 155.4945
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -527,7 +527,7 @@ MonoBehaviour:
   - {fileID: 488807607}
 --- !u!114 &488807599
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 488807595}
@@ -656,7 +656,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -87.87927
     y: -90.53215
-    width: 127
+    width: 129.12088
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -707,21 +707,11 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'creamsicle:And there was NO OUTSIDE.
-
-      cupcake: WHAAT?
-
-      creamsicle: shuuuushshhh!! I''m trying to tell the story!!!
-
-      cupcake: sowwy.
-
-      creamsicle: Anyways, mommy and daddy were there!
-
-      Mommy was a TOUGH CAT!
-
-      And Daddy was a SUPER TOUGH MONSTER!
-
-'
+    stringVal: "creamsicle:And there was NO OUTSIDE.\ncupcake: WHAAT?\ncreamsicle:
+      shuuuushshhh!! I'm trying to tell the story!!!\ncupcake: sowwy.\ncreamsicle:
+      Anyways, mommy and daddy were there!\nMommy was a SUPER COOL CAT!\nLCG confident
+      \"offscreen left\":\nLCG appear left: I'm a tough catgirl! \ncreamsicle: And
+      Daddy was a HANDSOME SPACE PRINCE!\n"
 --- !u!114 &488807609
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -800,7 +790,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &488807613
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 488807595}
@@ -820,7 +810,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &488807614
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 488807595}
@@ -840,7 +830,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &488807615
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 488807595}
@@ -932,7 +922,7 @@ GameObject:
   - component: {fileID: 532001260}
   - component: {fileID: 532001261}
   m_Layer: 0
-  m_Name: HeroicSpacePrince
+  m_Name: HSP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1137,7 +1127,7 @@ GameObject:
   - component: {fileID: 883572091}
   - component: {fileID: 883572092}
   m_Layer: 0
-  m_Name: LegendaryCatgirl
+  m_Name: LCG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1172,7 +1162,7 @@ MonoBehaviour:
   nameColor: {r: 0.625, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 8300000, guid: 3f244b0ea8fc90446baebef62dfd285b, type: 3}
   portraits:
-  - {fileID: 21300000, guid: 08af24da2c56ca84a82b8950dccd4723, type: 3}
+  - {fileID: 21300000, guid: fc134d160c8bdeb4ca130177ee3ed437, type: 3}
   - {fileID: 21300000, guid: 26cbca7b97114c74cab45de8d2f68b72, type: 3}
   portraitsFace: 2
   setSayDialog: {fileID: 0}
