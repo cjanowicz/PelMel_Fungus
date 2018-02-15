@@ -420,6 +420,8 @@ GameObject:
   - component: {fileID: 488807613}
   - component: {fileID: 488807599}
   - component: {fileID: 488807615}
+  - component: {fileID: 488807616}
+  - component: {fileID: 488807617}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -440,11 +442,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 536.40656, y: 255.2824}
+  scrollPos: {x: 288.42188, y: 218.96127}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 200
-  zoom: 0.9100001
+  zoom: 0.97
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -507,8 +509,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -325
-    y: -102
-    width: 155.4945
+    y: -100.9011
+    width: 154.12372
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -654,9 +656,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -87.87927
-    y: -90.53215
-    width: 129.12088
+    x: -154.88963
+    y: -178.16107
+    width: 129.38144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -666,6 +668,7 @@ MonoBehaviour:
   eventHandler: {fileID: 488807615}
   commandList:
   - {fileID: 488807612}
+  - {fileID: 488807616}
   - {fileID: 488807609}
   - {fileID: 488807610}
   - {fileID: 488807614}
@@ -709,9 +712,58 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "creamsicle:And there was NO OUTSIDE.\ncupcake: WHAAT?\ncreamsicle:
       shuuuushshhh!! I'm trying to tell the story!!!\ncupcake: sowwy.\ncreamsicle:
-      Anyways, mommy and daddy were there!\nMommy was a SUPER COOL CAT!\nLCG confident
-      \"offscreen left\":\nLCG appear left: I'm a tough catgirl! \ncreamsicle: And
-      Daddy was a HANDSOME SPACE PRINCE!\n"
+      Anyways.\nBack in ancient times, there was no outside. You look out a window,
+      and there nothing!\r\nBut wandering the ancient plains of the house, was an
+      AMAZING CATGIRL HERO GIRL.\nLCG happy \"offscreen left\":\nLCG appear left:
+      I'm a tough catgirl heroine! Meow!\nI am a famous adventurer!\r\nI defeated
+      countless cardboard boxes!\r\nI beat up the Vacuum Cleaner!\nLCG excited: I
+      even caught and eated all the chickens in the house, while shouting my battle
+      cry, MEOW!\nhappy: but...\nsad: I'm lonely. I want pets, from a big handsome
+      boy. And I don't have an outside to go play in.\nexcited: and I wanna go outside
+      and eat birbs!\nsad: but there isn't a world in my window.\r\nLCG happy: And
+      I LOVE MAKING A NEW WORLD!\r\nhappy: I just go to the window, and I tak tak
+      tak on the warm bed! And then there's a world in the window!\r\nLCG Sad: But
+      I don't have time to do that, I'm so busy with work! \r\nLCG Happy: Making the
+      big bucks, pushing the stick, and going tak-tak-tak and talk talk talk.\nLCG
+      sigh: Sigh. There's nobody here to pet me, and there's no outside to go play
+      in. What a shame, meow.\nLCG sad:\ncupcake: that's so sad!\ncreamsicle: Don't
+      worry, a long long time later, (like five minutes) she met daddy!\nHSP happy
+      \"offscreen right\":\nHSP right: Oh my, hello! Mrs. Catgirl, would you happen
+      to be a resident of this planet?\nLCG excited: uh... UH... AH!\n(Oh. My. God.
+      He is. SO... HOT.)\ncreamsicle: He was a HANDSOME PRINCE, from SPACE!\nLCG happy:
+      Why yes, I am a resident of this planet.\nHSP: Splendid!\r\nI noticed that you
+      don't have an outside. I would be happy to make one for you.\r\nLCG: I... also
+      noticed I don't have an outside. My window is a little lacking right now.\r\nHSP:
+      Would you like me to make a cute little world in the window for you? You look
+      like you could use a big and green world full of birds to chase.\r\nLCG: A-actually
+      I was going to do that later myself.\r\nLCG sad: but uh, I, kinda, uh...\nHSP
+      surprised: ...\r\nhappy: Ah, having trouble finding time? No worries, maybe
+      we can split the work! we all have trouble when we get started.\r\nAnyways,
+      I'm here to help, so, any requests?\nLCG angry: You think I can't do it? Don't
+      you?!?\r\nHSP surprised: ...\nLCG: I CAN! I HAVE DONE IT LOTS OF TIMES BUT I'M
+      BUSY! I DON'T HAVE TIME!\r\nLCG sigh: ... and I don't have time, I'm too busy
+      pushing sticks and being a hard working cat.\r\nLCG unhappy: and... and... \r\n...
+      nevermind.\nHSP: ... I see.\nhappy: I see. Hey, I'm really sorry I implied you
+      couldn't do it. \r\nTo be honest, I eagerly want to create a world too... I
+      was just really eager to work with you. \r\nI've travelled a million light-years,
+      and I've made lots of things.\r\nBut they were only things for me, and they
+      didn't make me happy.\r\nSo I want to find someone to make happy with what I
+      make.\r\nBlush: And when I look at you, I see someone I want to help.\r\nSomeone
+      I want to make happy, with all the things I can do.\r\n...and since we both
+      like to make worlds, W-would you like to make one with me?\nLCG blush: ... you
+      asking me to make a new world with me?\r\nHSP blush: ...yes! Mrs. Catgirl, I
+      would love to help you and work with you.\nHSP love: and make a new world just
+      for us.\nLCG love:  Yes! A million times yes! \r\nLCG happy: And also, heh,
+      its Ms. Catgirl. I'm not married.\nHSP surprised: ... Oh my.\r\nHSP blush: If
+      you may forgive my forwardness, I must confess, Miss Catgirl, that you are very
+      cute.\r\nMay I pet you?\r\nLCG blush: D-do you want to pet me?\r\nHSP love:
+      yes. I would love to pet you.\r\nLCG sad: ... ahhhh, sniff I-I would like that,
+      meow. \nLCG blush: You're really cute too. meow.\r\nHSP blush: Thank you.\r\nI
+      would love to be your partner in making a new world, and pet you forever.\r\nWould
+      you become a princess and be with me forever?\r\nLCG blush: Going on adventures?\r\nHSP
+      love: you bet.\nLCG love: LETS DO IT!!!\r\n\ncreamsicle: So Mommy and Daddy
+      teamed up to make a WINDOW! AND PUT ALL THE STUFF INTO THE WINDOW THAT WAS AN
+      OUTSIDE!\nCupcake: WOOOOW!\r\n\n"
 --- !u!114 &488807609
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -783,10 +835,10 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1332873369}
+    gameObjectVal: {fileID: 1671060078}
   activeState:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &488807613
 MonoBehaviour:
@@ -806,7 +858,7 @@ MonoBehaviour:
     gameObjectVal: {fileID: 1332873369}
   activeState:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &488807614
 MonoBehaviour:
@@ -841,6 +893,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 488807606}
   waitForFrames: 1
+--- !u!114 &488807616
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 488807595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 18
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1332873369}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &488807617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 488807595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -4.9167595
+    y: -113.80667
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 19
+  blockName: Block3
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
 --- !u!1 &495728015
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,8 +1053,10 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0.030882256, b: 0.6397059, a: 1}
   soundEffect: {fileID: 8300000, guid: 3f244b0ea8fc90446baebef62dfd285b, type: 3}
   portraits:
-  - {fileID: 21300000, guid: 08af24da2c56ca84a82b8950dccd4723, type: 3}
-  - {fileID: 21300000, guid: 26cbca7b97114c74cab45de8d2f68b72, type: 3}
+  - {fileID: 21300000, guid: 321693e9dbb3ac841bfade1d39ede47e, type: 3}
+  - {fileID: 21300000, guid: 3245ed9300400434892c01f2b7d5566d, type: 3}
+  - {fileID: 21300000, guid: 51e955e3d8731424aa02ac12e7cf57c8, type: 3}
+  - {fileID: 21300000, guid: 918ef7b24a58bf94ab4b65b5d96af707, type: 3}
   portraitsFace: 2
   setSayDialog: {fileID: 0}
   description: 
@@ -1163,7 +1261,13 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 3f244b0ea8fc90446baebef62dfd285b, type: 3}
   portraits:
   - {fileID: 21300000, guid: fc134d160c8bdeb4ca130177ee3ed437, type: 3}
-  - {fileID: 21300000, guid: 26cbca7b97114c74cab45de8d2f68b72, type: 3}
+  - {fileID: 21300000, guid: a85fbc16e2c3cfa46b19956c47ce418c, type: 3}
+  - {fileID: 21300000, guid: 0c8dfeaa78dbedc41b19d8c17e9e1c03, type: 3}
+  - {fileID: 21300000, guid: b72a86742c8ab214c8f7d6abe654f809, type: 3}
+  - {fileID: 21300000, guid: cad49604cb314f14f9c51bf1ea3df58c, type: 3}
+  - {fileID: 21300000, guid: 4cd1c20d68355764fb4497c4efb27e89, type: 3}
+  - {fileID: 21300000, guid: 5b91f514afc6c394ebfceca8801a6e45, type: 3}
+  - {fileID: 21300000, guid: a7cde2a9713ea9042bce3303ee91e6df, type: 3}
   portraitsFace: 2
   setSayDialog: {fileID: 0}
   description: 
